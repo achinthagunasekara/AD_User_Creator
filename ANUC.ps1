@@ -4,6 +4,12 @@
 # Blog: blog.richprescott.com
 # Twitter: twitter.com/Rich_Prescott
 # Link: http://blog.richprescott.com/2011/10/arposh-new-user-creation-anuc.html
+#
+# Date: 01.05.2015
+# Modified by: Achintha Gunasekara
+# Blog: http://blog.achinthagunasekara.com
+# Website: http://www.achinthagunasekara.com
+#
 #========================================================================
 #----------------------------------------------
 #region Application Functions
