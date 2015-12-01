@@ -293,7 +293,7 @@ function Call-ANUC_pff {
 		$XML.Options.Domains.Domain | %{$cboDomain.Items.Add($_.Name)}
 		
 		Write-Verbose "Adding OUs to combo box"
-	    $XML.Options.Domains.Domain | ?{$_.Name -match $cboDomain.Text} | Select -ExpandProperty Path | %{$cboPath.Items.Add($_)}
+		$XML.Options.Domains.Domain | ?{$_.Name -match $cboDomain.Text} | Select -ExpandProperty Path | %{$cboPath.Items.Add($_)}
 		
 		Write-Verbose "Adding descriptions to combo box"
 		$XML.Options.Descriptions.Description | %{$cboDescription.Items.Add($_)}
@@ -306,7 +306,7 @@ function Call-ANUC_pff {
 		
 		Write-Verbose "Setting default fields"
 		$cboDomain.SelectedItem = $XML.Options.Default.Domain
-	    $cboPath.SelectedItem = $XML.Options.Default.Path
+		$cboPath.SelectedItem = $XML.Options.Default.Path
 		$txtFirstName.Text = $XML.Options.Default.FirstName
 		$txtLastName.Text = $XML.Options.Default.LastName
 		$txtOffice.Text = $XML.Options.Default.Office
@@ -344,9 +344,9 @@ function Call-ANUC_pff {
 		$City = $txtCity.Text
 		$State = $txtState.Text
 		$PostalCode = $txtPostalCode.Text
-        $UnixUid = $txtUid.Text
-        $UnixGid = $txtGid.Text
-        $MsSFU30NisDomain = $txtMsSFU30NisDomain.Text
+		$UnixUid = $txtUid.Text
+		$UnixGid = $txtGid.Text
+		$MsSFU30NisDomain = $txtMsSFU30NisDomain.Text
 	
 		if($XML.Options.Settings.Password.ChangeAtLogon -eq "True"){$ChangePasswordAtLogon = $True}
         else{$ChangePasswordAtLogon = $false}
