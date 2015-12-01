@@ -1,9 +1,9 @@
-#ReadMe
-##AD PowerShell User Creator
+#AD PowerShell User Creator
+
 I have taken this script originally from 
 https://gallery.technet.microsoft.com/scriptcenter/New-User-Creation-tool-14fa73cd.
 This script was originally written by Rich Prescott (https://social.technet.microsoft.com/profile/rich%20prescott/) 
-Then there were several modifications made, so we can add unix attributes such as UID and GID when we are creating this user. 
+Then there were several modifications made, so we can add unix attributes such as UID and GID when we are creating this user.
 
 ##Installing Identity Management for Windows Server 2012
 
