@@ -19,11 +19,8 @@ This installs or removes only the administration tools. Using Dism.exe, Server f
 
 ```shell
 Dism.exe /online /enable-feature /featurename:nis /all to install Server for NIS.
-
 Dism.exe /online /disable-feature /featurename:nis to remove Server for NIS.
-
 Dism.exe /online /enable-feature /featurename:psync /all to install Password Synchronization.
-
 Dism.exe /online /disable-feature /featurename:psync to remove Password Synchronization.
 ```
 
