@@ -456,7 +456,7 @@ function Call-ANUC_pff {
 			$btnSubmitAll.Visible = $True
 			$lvCSV.Visible = $True
 			$cboDomain.Width = '175'
-		    $cboPath.Width = '249'
+			$cboPath.Width = '249'
 			$txtFirstName.Width = '175'
 			$txtLastName.Width = '175'
 			$txtOffice.Width = '175'
@@ -471,13 +471,13 @@ function Call-ANUC_pff {
 			$txtState.Width = '175'
 			$txtPostalCode.Width = '175'
 			$txtPassword.Width = '175'
-            $txtUid.Width = '175'
-            $txtGid.Width = '175'
+			$txtUid.Width = '175'
+			$txtGid.Width = '175'
 			$txtDN.Width = '175'
 			$txtsAM.Width = '175'
 			$txtUPN.Width = '175'
-            $txtMsSFU30NisDomain.Width = '175'
-			}
+			$txtMsSFU30NisDomain.Width = '175'
+		}
 		else{
 			$formMode.Text = "CSV Mode"
 			$formMain.Size = '320,755'
