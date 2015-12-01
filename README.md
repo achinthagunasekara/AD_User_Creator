@@ -9,8 +9,14 @@ Then there were several modifications made, so we can add unix attributes such a
 
 To install or remove Identity Management for UNIX by using Dism.exe
 On a domain controller that runs Windows Server 2012 R2 or Windows Server 2012, Right-click Windows PowerShell and click Run as Administrator .
+
 Type one of the following, and then press ENTER:
-Dism.exe /online /enable-feature /featurename:adminui /all to install the administration tools for Identity Management for UNIX.
+
+To install the administration tools for Identity Management for UNIX
+
+```powershell
+Dism.exe /online /enable-feature /featurename:adminui /all
+```
 
 Dism.exe /online /disable-feature /featurename:adminui to remove the administration tools for Identity Management for UNIX.
 
