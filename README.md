@@ -18,9 +18,14 @@ To install the administration tools for Identity Management for UNIX
 Dism.exe /online /enable-feature /featurename:adminui /all
 ```
 
-Dism.exe /online /disable-feature /featurename:adminui to remove the administration tools for Identity Management for UNIX.
+To remove the administration tools for Identity Management for UNIX
 
-noteNote
+```powershell
+Dism.exe /online /disable-feature /featurename:adminui
+```
+
+Note
+
 This installs or removes only the administration tools. Using Dism.exe, Server for NIS and Password Synchronization must be installed separately.
 
 ```shell
