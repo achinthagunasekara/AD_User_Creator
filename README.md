@@ -16,6 +16,8 @@ Dism.exe /online /disable-feature /featurename:adminui to remove the administrat
 
 noteNote
 This installs or removes only the administration tools. Using Dism.exe, Server for NIS and Password Synchronization must be installed separately.
+
+```shell
 Dism.exe /online /enable-feature /featurename:nis /all to install Server for NIS.
 
 Dism.exe /online /disable-feature /featurename:nis to remove Server for NIS.
@@ -23,5 +25,6 @@ Dism.exe /online /disable-feature /featurename:nis to remove Server for NIS.
 Dism.exe /online /enable-feature /featurename:psync /all to install Password Synchronization.
 
 Dism.exe /online /disable-feature /featurename:psync to remove Password Synchronization.
+```
 
 A restart of the computer is required when you install or remove Identity Management for UNIX. The /quiet parameter restarts the computer automatically after installation or removal is finished.
