@@ -37,5 +37,3 @@ Dism.exe /online /disable-feature /featurename:psync to remove Password Synchron
 
 A restart of the computer is required when you install or remove Identity Management for UNIX. The /quiet parameter restarts the computer automatically after installation or removal is finished.
 
-
-
