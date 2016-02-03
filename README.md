@@ -1,4 +1,4 @@
-#AD PowerShell User Creator
+
 
 I have taken this script originally from 
 https://gallery.technet.microsoft.com/scriptcenter/New-User-Creation-tool-14fa73cd.
@@ -36,4 +36,5 @@ Dism.exe /online /disable-feature /featurename:psync to remove Password Synchron
 ```
 
 A restart of the computer is required when you install or remove Identity Management for UNIX. The /quiet parameter restarts the computer automatically after installation or removal is finished.
+
 
